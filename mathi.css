@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*navbar*/
+.navbar{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 20px;
+    align-items: center;
+}
+ .nav1__tittle{
+    color: blueviolet;
+ } 
+ .nav2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap:10px;
+    align-items: center;
+ }  
+ .nav2 input{
+    border: none;
+    width: 100%;
+    
+ }
+ .nav2 input:focus{
+    outline:none;
+ }
+ .nav2:hover{
+    border-color: rgb(106, 0, 205);
+ }
+ .nav3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+ }
+ .nav3 h5{
+    background-color:black;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+ }
+ .nav3 h5:hover{
+    background-color:rgb(115, 20, 218);
+ }
+/*catagories*/
+.catagories{
+    display: flex;
+    padding: 10px;
+    border-bottom: solid 1px;
+    justify-content: space-around;
+}
+.catagories p{
+    background-color: blueviolet;
+    border-radius: 100px;
+    padding: 10px;
+    color: white;
+}
+.catagories p:hover{
+    background-color:rgb(184, 126, 238);
+}
+/*sales*/
+.sales img{
+    width:100%;
+    height: fit-content;
+    scroll-behavior: smooth;
+}
+.sales__content{
+    margin-left: 48px;
+    position:absolute;
+    top: 50%;
+    width: 30%;
+    padding: 30px;
+    color: azure;
+    background-color: rgb(160, 77, 238);
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+.sales__content h1{
+    font-size: 25px;
+    color:white;
+}
+.sales__content h5{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*recomended*/
+.recommended{
+    padding:10px;
+
+}
+.recommended h1{
+    color: blueviolet;
+}
+
+
+.card{
+    width:300px;
+    
+}
+.card del{
+    font-size:smaller;
+    color:gray;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+.card h3{
+    position:relative;
+    width:80px;
+    border: solid 1px ;
+    background-color: rgb(96, 0, 199);
+    border-radius:5px;
+    padding:5px;
+    bottom:250px;
+    border-left:15px;
+    color: white;
+    font-size:15px ;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    
+}
+
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.card span{
+    color: rgb(255, 179, 0);
+}
+/*topics*/
+.topics{
+    padding: 10px;
+    margin-top: 10px;
+}
+.topics h1{
+    color:blueviolet;
+}
+.topics_container{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topics_container h4{
+    border: solid black 2px;
+    padding: 10px;
+    flex-grow:1 ;
+    flex-basis: 25%;
+    border-radius: 20px;
+
+}
+.topics_container h4:hover{
+    background-color: rgb(159, 153, 153);
+}
+/*papular*/
+.papular{
+    padding: 10px;
+
+}
+
+
+.papular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.card-1{
+    width:300px;
+    
+}
+.card-1 del{
+    font-size:smaller;
+    color:gray;
+}
+
+.card-1 img{
+    width: 100%;
+    border-radius: 8px;
+   
+}
+.card-1 span{
+    color: rgb(255, 179, 0);
+}
+.card-1 h3{
+    position:relative;
+    width:80px;
+    border: solid 1px ;
+    background-color: rgb(96, 0, 199);
+    border-radius:5px;
+    padding:5px;
+    bottom:250px;
+    border-left:15px;
+    color: white;
+    font-size:15px ;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    
+}
+.add img{
+    width: 100%;
+    height:fit-content;
+}
+.content {
+    color: blueviolet;
+    position:RELATIVE;
+    width: 30%;
+    bottom:500px;
+    padding: 30px;
+    left: 60%;
+    color:black;
+    font-weight: 30px;
+    border-radius: 20px;
+   background: rgba(170, 2, 173, 0.2);
+}
+.content p{
+    color:white;
+}
+.content button{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 5px;
+    color:rgb(29, 29, 29);
+    width: 30%;
+}
+.content button:hover{
+    background-color: rgb(196, 139, 249);
+}
+/*footer*/
+.footer{
+    padding: 10px;
+    background-color: blueviolet;
+    color: azure;
+    padding-top: 20px;
+}
+.footer__one{
+    display: flex;
+}
+.footer__two{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    align-items: center;
+}
+.footer__two h2{
+    color: black;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__one__s1 p:hover{
+    color:black;
+
+}
+.footer__one__s2 p:hover{
+    color: black;
+}
